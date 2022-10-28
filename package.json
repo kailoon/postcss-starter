@@ -1,13 +1,16 @@
 {
 	"name": "postcss-starter",
 	"version": "1.0.0",
-	"description": "",
+	"description": "Postcss starter is a starter kit for any project using postcss.",
 	"main": "index.js",
 	"scripts": {
 		"postcss:watch": "postcss src/style.css --dir public --watch"
 	},
-	"keywords": [],
-	"author": "",
+	"keywords": [
+		"postcss",
+		"tarter"
+	],
+	"author": "kailoon",
 	"license": "ISC",
 	"devDependencies": {
 		"postcss": "^8.4.18",
