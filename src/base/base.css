@@ -1,0 +1,23 @@
+/* media query example in CSS */
+@custom-media --viewport-lg (min-width: 50em);
+@media (--viewport-lg) {
+	body {
+		background: red;
+	}
+}
+
+body {
+	background: #f2f2f2;
+	font-size: 1rem;
+}
+
+/* nesting example in CSS */
+article {
+	background: purple;
+	& h2 {
+		font-size: 6rem;
+		@media (--viewport-lg) {
+			font-size: 4rem;
+		}
+	}
+}

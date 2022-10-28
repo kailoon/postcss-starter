@@ -1,0 +1,18 @@
+{
+	"name": "postcss-starter",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"postcss:watch": "postcss src/style.css --dir public --watch"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"postcss": "^8.4.18",
+		"postcss-cli": "^10.0.0",
+		"postcss-import": "^15.0.0",
+		"postcss-preset-env": "^7.8.2"
+	}
+}
